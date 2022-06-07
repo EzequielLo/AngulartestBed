@@ -1,6 +1,6 @@
 import { TestBed } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
-import { AppComponent } from './app.component';
+import { AppComponent } from "./AppComponent";
 
 describe('AppComponent', () => {
   beforeEach(async () => {
@@ -14,22 +14,24 @@ describe('AppComponent', () => {
     }).compileComponents();
   });
 
-  it('should create the app', () => {
+  it('should create the component', () => {
     const fixture = TestBed.createComponent(AppComponent);
-    const app = fixture.componentInstance;
-    expect(app).toBeTruthy();
+    const component = fixture.componentInstance;
+    expect(component).toBeTruthy();
   });
 
   it(`should have as title 'angular-unit-testing'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
-    const app = fixture.componentInstance;
-    expect(app.title).toEqual('angular-unit-testing');
+    const component = fixture.componentInstance;
+    expect(component.title).toEqual('angular-unit-testing');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
+    const component = fixture.componentInstance;
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('angular-unit-testing app is running!');
+    const h1 = compiled.querySelector('h1');
+    expect(h1?.textContent).toContain(component.title);
   });
 });
