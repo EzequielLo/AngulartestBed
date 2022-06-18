@@ -1,0 +1,5 @@
+(undo-tree-save-format-version . 1)
+"547349769eda2c692c470bd7858918d606b1eb2c"
+[nil nil nil nil (25261 46315 20123 478000) 0 nil]
+([nil current ((72 . 74) (#("z" 0 1 (fontified t face tree-sitter-hl-face:string)) . -71) (undo-tree-id0 . -1) 72 (#("c" 0 1 (fontified t face tree-sitter-hl-face:string)) . -73) (undo-tree-id1 . -1) 74 (72 . 74) (#("<" 0 1 (fontified t face tree-sitter-hl-face:string)) . -72) (undo-tree-id2 . -1) 73 (72 . 73) (#("z" 0 1 (fontified t face tree-sitter-hl-face:string)) . -72) (undo-tree-id3 . -1) 73 (72 . 73) (#("j" 0 1 (fontified t face tree-sitter-hl-face:string)) . -72) (undo-tree-id4 . -1) (#("s" 0 1 (fontified t face tree-sitter-hl-face:string)) . -73) (undo-tree-id5 . -1) 74 (71 . 74) (70 . 71) (64 . 71) (#("g" 0 1 (fontified t)) . -64) (undo-tree-id6 . -1) 65 (63 . 65) (54 . 62) (52 . 54) (48 . 53) (#("e" 0 1 (fontified t)) . -48) (undo-tree-id7 . -1) (#("r" 0 1 (fontified t)) . -49) (undo-tree-id8 . -1) 50 (48 . 50) (#("e" 0 1 (fontified t)) . -48) (undo-tree-id9 . -1) 49 (44 . 49) (44 . 45) (t 25260 25685 511317 514000)) nil (25261 46315 20114 468000) 0 nil])
+nil
